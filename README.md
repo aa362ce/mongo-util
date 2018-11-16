@@ -4,7 +4,20 @@ This repo contains my experiments with rust lang and some basic tutorials.
 ## Getting Started
 
 Follow the instructions on 
-(curl https://sh.rustup.rs -sSf | sh)
+(https://www.rust-lang.org)
+
+### Installation
+
+```
+$ curl https://sh.rustup.rs -sSf | sh
+```
+Then
+
+```
+$ source $HOME/.cargo/env
+$ rustc hello.rs
+$ ./hello
+```
 
 ### Prerequisites
 
